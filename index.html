@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Fast Company</title>
+
+    <title>The Fast Company - Fast and Efficient Apps</title>
+
+    <meta name="description" content="Discover The Fast Company's range of efficient applications - Fast Loo, Fast ATM, and Fast Post. Download now from App Store and Google Play.">
+    <meta name="keywords" content="Fast Company, Fast Loo, Fast ATM, Fast Post, efficient apps">
+    <meta property="og:title" content="The Fast Company - Fast and Efficient Apps">
+    <meta property="og:description" content="Discover The Fast Company's range of efficient applications - Fast Loo, Fast ATM, and Fast Post. Download now from App Store and Google Play.">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,31 +20,35 @@
             height: 100vh;
             text-align: center;
         }
+
+        header, .header-links, .app-container {
+            display: flex;
+            justify-content: center;
+        }
+
         header {
             background-color: #4CAF50;
             padding: 10px;
             width: 100%;
             position: absolute;
             top: 0;
-            display: flex;
-            justify-content: center;
         }
+
         .header-links {
-            display: flex;
             gap: 20px;
         }
+
         header a {
             color: white;
             text-decoration: none;
         }
-        .app-container {
-            display: flex;
-        }
+
         .app-icon {
             width: 100px;
             height: 100px;
             border-radius: 20px;
         }
+
         .app-store-badge {
             width: 100px;
             height: 50px;
@@ -46,33 +57,39 @@
 </head>
 <body>
 <header>
-    <div class="header-links">
+    <nav class="header-links">
         <a href="index.html">Home</a>
         <a href="privacy-policy.html">Privacy Policy</a>
-    </div>
+    </nav>
 </header>
-<div class="container">
+<main class="container">
     <h1>The Fast Company</h1>
-    <div class="app-container">
-            <div>
-                <img class="app-icon" src="images/fast-loo-icon.png" alt="Fast Loo Icon">
+    <section class="app-container">
+        <figure>
+            <img class="app-icon" src="images/fast-loo-icon.png" alt="Fast Loo Icon">
+            <figcaption>
                 <h2>Fast Loo</h2>
-                <a href="https://apps.apple.com/app-link1"><img class="app-store-badge" src="images/apple-app-shore-badge.png" alt="Fast Loo Icon"></a>
-                <a href="https://apps.apple.com/app-link1"><img class="app-store-badge" src="images/google-app-store-badge.png" alt="Fast Loo Icon"></a>
-            </div>
-            <div>
-                <img class="app-icon" src="images/fast-atm-icon.png" alt="Fast ATM Icon">
+                <a href="https://apps.apple.com/us/app/fast-loo-find-nearby-toilets/id6448922232"><img class="app-store-badge" src="images/apple-app-shore-badge.png" alt="Download Fast Loo on Apple App Store"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.expo.android.fast.toilet"><img class="app-store-badge" src="images/google-app-store-badge.png" alt="Download Fast Loo on Google Play Store"></a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="app-icon" src="images/fast-atm-icon.png" alt="Fast ATM Icon">
+            <figcaption>
                 <h2>Fast ATM</h2>
-                <a href="https://apps.apple.com/app-link1"><img class="app-store-badge" src="images/apple-app-shore-badge.png" alt="Fast Loo Icon"></a>
-                <a href="https://apps.apple.com/app-link1"><img class="app-store-badge" src="images/google-app-store-badge.png" alt="Fast Loo Icon"></a>
-            </div>
-            <div>
-                <img class="app-icon" src="images/fast-post-icon.png" alt="Fast Post Icon">
+                <a href="https://apps.apple.com/app-link2"><img class="app-store-badge" src="images/apple-app-shore-badge.png" alt="Download Fast ATM on Apple App Store"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.expo.fastatm"><img class="app-store-badge" src="images/google-app-store-badge.png" alt="Download Fast ATM on Google Play Store"></a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="app-icon" src="images/fast-post-icon.png" alt="Fast Post Icon">
+            <figcaption>
                 <h2>Fast Post</h2>
-                <a href="https://apps.apple.com/app-link1"><img class="app-store-badge" src="images/apple-app-shore-badge.png" alt="Fast Loo Icon"></a>
-                <a href="https://apps.apple.com/app-link1"><img class="app-store-badge" src="images/google-app-store-badge.png" alt="Fast Loo Icon"></a>
-            </div>
-    </div>
-</div>
+                <a href="https://apps.apple.com/us/app/fast-post-post-office-finder/id6450653443"><img class="app-store-badge" src="images/apple-app-shore-badge.png" alt="Download Fast Post on Apple App Store"></a>
+                <a href="https://apps.apple.com/us/app/fast-atm-find-nearby-atms/id1601539761"><img class="app-store-badge" src="images/google-app-store-badge.png" alt="Download Fast Post on Google Play Store"></a>
+            </figcaption>
+        </figure>
+    </section>
+</main>
 </body>
 </html>
