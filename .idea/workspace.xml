@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e69bf2b-521b-41f0-90d1-d6479760c6cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/apple-app-store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/google-app-store.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/apple-app-shore-badge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/google-app-store-badge.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privacy-policy.html" afterDir="false" />
     </list>
@@ -44,6 +48,11 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTML"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,7 +77,9 @@
       <workItem from="1691443809396" duration="11000" />
       <workItem from="1693170066787" duration="1293000" />
       <workItem from="1693214072152" duration="1000" />
-      <workItem from="1696765315338" duration="2741000" />
+      <workItem from="1696765315338" duration="4059000" />
+      <workItem from="1696787938327" duration="1050000" />
+      <workItem from="1696798684193" duration="2462000" />
     </task>
     <servers />
   </component>
